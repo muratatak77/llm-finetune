@@ -7,9 +7,7 @@ This project fine-tunes a GPT-2 Medium model on a custom question-answer dataset
 
 ---
 
-## 📁 Project Structure
-
-```
+##  Project Structure
 
 llm\_finetune/
 ├── model\_output/
@@ -21,19 +19,18 @@ llm\_finetune/
 ├── train.py
 └── qa\_data.json
 
-````
-
 ---
 
 ## 🚀 Training the Model
 
 1. Ensure `qa_data.json` contains question-answer pairs:
+
 ```json
 {
   "question": "What is the result of the milk test on dog X?",
   "answer": "Fat: 55.5 %, Lactose: 44.8 g/dL"
 }
-````
+```
 
 2. Run the training:
 
@@ -68,28 +65,6 @@ Install dependencies:
 
 ```bash
 pip install transformers datasets torch
-```
-
----
-
-## 🔐 GitHub via SSH (optional)
-
-1. Generate SSH key:
-
-```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-2. Add the key to GitHub:
-
-```bash
-cat ~/.ssh/id_ed25519.pub
-```
-
-3. Set remote:
-
-```bash
-git remote set-url origin git@github.com:your-username/your-repo.git
 ```
 
 ---
