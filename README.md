@@ -1,5 +1,3 @@
-Here is your `README.md` file content, ready to copy and paste:
-
 ```markdown
 # 🧠 Fine-Tuning GPT-2 Medium for Custom Q&A
 
